@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link rel="stylesheet" href="css /phone.css"> -->
+    <title>FIT WITH US</title>
+    <style>
+        .navbar {
+            background-color: lightgoldenrodyellow;
+            border-radius: 30px;
+
+        }
+
+        .navbar ul {
+            overflow: auto;
+        }
+
+        .navbar li {
+            float: left;
+            list-style: none;
+            margin: 13px 20px;
+
+        }
+
+        .navbar li a {
+            padding: 3px 3px;
+            text-decoration: none;
+            color: black;
+            font-weight: bold;
+            font-family: monospace;
+            font-size: 32px;
+        }
+
+        .navbar li a:hover {
+            color: red;
+        }
+
+
+
+
+        h1 {
+            text-align: center;
+
+            color: darkgreen;
+            font-size: 53px;
+            font-family: cursive;
+            font-weight: bolder;
+            display: inline-block;
+            text-shadow: 3px 2px mistyrose;
+            transition: all;
+
+
+        }
+
+        body::before {
+            background: url('bg2.jpg') no-repeat center center/cover;
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            z-index: -1;
+            opacity: 0.5;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-rows: 100 300 px;
+            grid-template-columns: repeat(4, 2fr);
+            grid-gap: 1rem;
+            height: 100%;
+
+
+
+
+        }
+
+
+
+        }
+
+        .box {
+
+            border: 2px solid black;
+            height: 300px;
+
+            color: white;
+        }
+
+
+
+        #box1 {
+            background-image: url(nutrition.jpg);
+            color: white;
+            height: 300px;
+        }
+
+        #box2 {
+            background-image: url(fruit.jpg);
+            /* background-repeat: no-repeat; */
+            background-size: 300px 300px;
+            height: 300px;
+            color: white;
+
+        }
+
+        #box3 {
+            background-image: url(yogaa.jpg);
+            /* background-repeat: no-repeat; */
+            height: 300px;
+            color: white;
+        }
+
+        #box4 {
+            background-image: url(sleepsc.jpg);
+            background-repeat: no-repeat;
+
+            background-size: 300px 300px;
+            color: white;
+            height: 300px;
+        }
+
+        p {
+            font-family: cursive;
+            color: maroon;
+            font-size: larger;
+            display: block;
+            text-align: center;
+        }
+
+
+
+        img {
+            text-align: center;
+            height: 100px;
+            float: left;
+        }
+        @media screen and (max-width:990px)  {
+            .grid{
+                display: flex;
+                flex-direction: column;
+
+            }
+            .box{
+                background-repeat: no-repeat;
+            }
+            body{
+                background-image:none;
+            }
+            
+        }
+    </style>
+</head>
+
+<body>
+    <img src="image-removebg-preview (6).png" alt="fitwithus.com">
+    <h1>FIT WITH US</h1>
+    <header>
+        <nav class="navbar">
+            <ul>
+                <li><a href="task4.html">Home</a></li>
+                <!-- <li><a href="about us.html">About</a></li> -->
+
+                <li><a href="services.html">About</a></li>
+                <li><a href="contact us.html">Contact us</a></li>
+
+            </ul>
+        </nav>
+    </header>
+    <br>
+    <div class="grid">
+        <div class="box" id="box1">
+            <h2>NUTRITION</h2>
+        </div>
+        <div class="box" id="box2">
+            <h2>DIET PLAN</h2>
+        </div>
+        <div class="box" id="box3">
+            <h2>EXERCISES</h2>
+        </div>
+        <div class="box" id="box4">
+            <h2> SLEEPING SCHEDULE</h2>
+        </div>
+    </div>
+    <div class="section">
+        <p>
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Quod, laborum. Quasi, atque! Dolores repellat
+            aliquid
+            labore voluptatibus quos, eveniet hic quis maiores, vel culpa temporibus minus aspernatur ipsam iste
+            suscipit
+            ducimus nihil, magni cum voluptatem sapiente iusto. Dolores facere ex quidem dolorum ducimus quod sapiente
+            beatae, aliquid maxime molestias cumque minima provident temporibus similique.
+        </p>
+    </div>
+
+
+</body>
+
+</html>
